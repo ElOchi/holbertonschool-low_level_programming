@@ -10,20 +10,22 @@
 
 int main(void)
 {
-	char lower = 'a';
-	char upper = 'A';
+	char n;
+	char m;
 
-	while (lower < 'z')
+	for (n = 'a'; n <= 'z'; n++)
+		{
+		putchar(n);
+		}
 	{
-		putchar(lower);
-		lower++;
-	}
+		for (m = 'A'; m <= 'Z'; m++)
+		{
+		putchar (m);
+		}
 
-	while (upper < 'Z')
-	{
-		putchar(upper);
-		upper++;
+		putchar('\n');
 	}
-	putchar('\n');
-	return (0);
+		return (0);
 }
+
+
