@@ -1,17 +1,18 @@
 #include "holberton.h"
 /**
-* main -  prints Holberton, followed by a new line.
+* main - prints the string "Holberton" from a character array.
 * Return: 0 on success.
 */
-
-
-
 int main(void)
 {
-char holbi[20] = "Holberton";
+	char c[] = "Holberton";
+	int i;
 
-	printf("%s\n", holbi);
-
+	for (i = 0; i < 9; i++)
+	{
+	_putchar(c[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
 
