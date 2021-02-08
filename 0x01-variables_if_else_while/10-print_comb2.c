@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - Printsthe numbers from 0 to 99 separated by commas, followed by space
+ * main - Prints the numbers from 0 to 99 separated by commas, followed by space
  *
  *
  *
