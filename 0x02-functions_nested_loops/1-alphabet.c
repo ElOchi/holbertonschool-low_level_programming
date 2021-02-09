@@ -9,7 +9,7 @@
 
 void print_alphabet(void)
 {
-char alph = 'a';
+	char alph = 'a';
 
 	while (alph <= 'z')
 	{
@@ -18,3 +18,10 @@ char alph = 'a';
 	}
 	_putchar('\n');
 }
+
+int main(void)
+{
+    print_alphabet();
+    return (0);
+}
+
