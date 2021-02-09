@@ -8,10 +8,13 @@
 
 int main(void)
 {
-char holbi[20] = "Holberton";
+	char holbi[] = "Holberton";
+	int num;
 
-	printf("%s\n", holbi);
-
+	for (num = 0; num < 9; num++)
+	{
+		_putchar(holbi[num]);
+	}
+	_putchar('\n');
 	return (0);
 }
-
