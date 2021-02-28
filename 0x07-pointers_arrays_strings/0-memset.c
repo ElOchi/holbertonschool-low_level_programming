@@ -8,6 +8,11 @@
  *
  * Return: Array with the modified elements
  */
+
+
+
+
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int index = 0;
@@ -16,6 +21,19 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[index] = b;
 		index++;
+	}
+
+	return (s);
+}
+
+char *_memset(char *s, char b, unsigned int n)
+{
+
+
+	while (n > 0)
+	{
+		s[n - 1] = b;
+		n--;
 	}
 
 	return (s);

@@ -7,16 +7,23 @@
  *
  * Return: pointer to spot in s with c or null
  */
+
 char *_strchr(char *s, char c)
 {
 	int i;
 
-	for (i = 0; *(s + i); i++)
+	while (s[i] != '\0')
 	{
-		if (*(s + i) == c)
-			return (s + i);
+		if (s[i] == c)
+			return(s+i);
+		i++;
 	}
-	if (*(s + i) == c)
-		return (s + i);
+	if (s[i] == c)
+			return(s+i);
+		i++;
+
 	return (0);
 }
+
+
+
