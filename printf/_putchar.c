@@ -1,0 +1,12 @@
+#include <unistd.h>
+/**
+ * _putchar - prints
+ * @c: char to print
+ * @count: counts char printed
+ * Return: prints
+ */
+
+int _putchar(char c, int *count)
+{
+*count += 1;
+return (write(1, &c, 1));
