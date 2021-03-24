@@ -3,7 +3,7 @@
 /**
  * add_nodeint - adds a new node at the beginning of a listint_t list.
  *@head: head of the linked list
- *@n: head of the linked list
+ *@n: Value to add to the new node 
  *
  * Return: Address of the new element, or NULL if it failed
  */
