@@ -4,7 +4,7 @@
  *@head: head of the linked list
  *
  * Return: if the list is empty, return 0
- * */
+ */
 int sum_listint(listint_t *head)
 {
 	int amount = 0;
