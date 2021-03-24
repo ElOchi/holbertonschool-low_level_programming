@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  *add_nodeint_end - adds a new node at the end a listint_t list.
  *@head: head of the linked list
